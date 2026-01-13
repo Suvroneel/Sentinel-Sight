@@ -1,4 +1,4 @@
-# SentinelSight
+# SentinelSight: AI Video Analytics Platform
 
 **Production-style MVP built in 2-day sprint**  
 **Author:** Suvroneel Nathak  
