@@ -1,4 +1,4 @@
-# SentinelSight: AI Video Analytics Platform
+# SentinelSight
 
 **MVP Implementation for Internship Assessment**  
 **Sprint Duration:** 2 days  
@@ -896,3 +896,4 @@ The architecture is deliberately over-engineered for the MVP scope to demonstrat
 - Structured logging with ELK stack integration
 - Prometheus metrics + Grafana dashboards
 - PostgreSQL migration with connection pool
+
