@@ -1,16 +1,15 @@
 # SentinelSight
 
-**MVP Implementation for Internship Assessment**  
-**Sprint Duration:** 2 days  
+**Production-style MVP built in 2-day sprint**  
 **Author:** Suvroneel Nathak  
-**Submission Date:** January 13, 2026
+**Date:** January 13, 2026
 
 ---
 
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
-2. [Assignment Context & Objectives](#assignment-context--objectives)
+2. [Project Context](#project-context)
 3. [System Architecture](#system-architecture)
 4. [Feature Summary](#feature-summary)
 5. [Tech Stack](#tech-stack)
@@ -47,9 +46,9 @@ SentinelSight is an AI-powered video analytics platform designed to process RTSP
 
 ---
 
-## Assignment Context & Objectives
+## Project Context
 
-This project was built as part of an internship assessment to demonstrate:
+This project was developed as a technical assessment to demonstrate end-to-end system design, AI engineering capabilities, and product thinking within tight time constraints. The objectives included:
 
 1. **Working End-to-End System:** From RTSP ingestion → AI inference → rule evaluation → event storage → API exposure → UI visualization
 2. **Engineering Quality:** Modular design, error handling, automatic retries, logging, and sensible defaults
@@ -896,4 +895,3 @@ The architecture is deliberately over-engineered for the MVP scope to demonstrat
 - Structured logging with ELK stack integration
 - Prometheus metrics + Grafana dashboards
 - PostgreSQL migration with connection pool
-
