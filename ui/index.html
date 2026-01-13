@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SentinelSight</title>
+</head>
+<body>
+<h2>Events</h2>
+<div id="events"></div>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+
+<script>
+fetch("/events")
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById("events").innerHTML =
+      data.map(e => `<p>${e.rule} | ${e.timestamp}</p>`).join("")
+  })
+</script>
+</body>
+</html>
